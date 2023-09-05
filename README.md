@@ -1,2 +1,2 @@
-# projects
- using what I've learned in HTML and CSS
+# Projects
+ Using what I've learned in HTML and CSS
