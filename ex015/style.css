@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+} 
+h1{
+    color: dodgerblue; background-color: gainsboro;
+}
+h2{
+    color: rgb(26, 206, 146);    
+}
+p{
+    text-align: justify;
+}

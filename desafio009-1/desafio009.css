@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(250, 240, 220);
+    font-style: unset;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+h1 {
+    text-align: center;
+    background-color: rgb(50, 230, 170);
+}
+h2 {
+    color: rgb(170, 110, 45);
+}
+p {
+    text-align: justify;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="css.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Rampart+One&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;;
+        }
+
+        a {
+            color:cornflowerblue;
+            text-decoration:none;
+            font-weight:bolder;
+        }
+        a:visited {
+            color: rgb(60, 90, 150);
+
+        }
+        a:hover {
+            color: midnightblue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: deepskyblue;
+        }
+
+        a::after {
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: #14e29d;
+        }
+        .especial {
+            background-color:#14e29d45;
+        }
+        .especial::after {
+            content: " ⇦;" ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a class="especial" href="https://arquituario.netlify.app/glossario/">Arquituário</a></li>
+        <li><a href="https://twitter.com/shyqueiroz">Twitter</a></li>
+        <li><a href="http://github.com/shayqueiroz">GitHub</a></li>
+    </ul>
+
+    <p><a href="pseudoclasse.html">Home</a></p>
+</body>
+</html>
