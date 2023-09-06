@@ -297,13 +297,13 @@
                                 </h4>
                                 <p>As propriedades herdadas referem-se as características que são transmitidas de um elemento pai para seus elementos filhos. Ou seja, quando aplicamos uma propriedade a um elemento principal, essa propriedade pode ser automaticamente aplicada aos elementos dentro dele, a menos que sejam especificamente sobrescritos. <br>
                                 Isso significa dizer que, caso haja duplicidade nas configurações, o que fica valendo no final é a propriedade especificada nas configurações mais abaixo do código. Cada camada de aplicação de estilos vai adicionando propriedades novas e sobrescrevendo as configurações do nível anterior.<br></p>
-                                <p><strong class="negrito">Exemplo:</strong>
+                                <p><strong>Exemplo:</strong>
                                 Num documento HTML para aplicarmos estilos, temos a seguinte ordem:
                                 <ol>
                     <li>CSS externo</li>
                     <li>CSS local</li>
                     <li>CSS inline</li>
-                                </ol><br>
+                                </ol>
                                 <p>Com isso, temos que as especificações de estilo acima do inline, vão adicionar novas configurações de estilo, mas em caso de duplicidade (como já dito acima), o que prevalece será o que foi especificado nas configurações inline.</p>
                                 <p><strong class="negrito">NOTA:</strong> o uso do símbolo "&gt;" em um seletor, indicamos os filhos imediatos de um elemento.</p>
                 <pre class="code-box">
@@ -322,7 +322,15 @@
                     <li><code>:checked</code> - usado junto com elementos de entrada como caixas de seleção, permitindo que aplique estilo aos elementos marcados ou selecionados pelo usuário.</li>
                     <li><code>:empty</code> - usado para selecionar elementos que não têm nenhum conteúdo filho, incluindo elementos que não têm texto ou outros elementos aninhados dentro deles.</li>
                     <li><code>:focus</code> - usado para selecionar um elemento quando ele está em foco, ou seja, quando o usuário interage com o elemento.</li>
-                </ul><br>
+                </ul>
+                <p>
+                    <h4>Exemplo do uso de <code>:hover</code>
+                    </h4>
+                <div>
+                    Passe o mouse aqui!
+                    <p><strong>&rarr; You got it! &larr;</strong></p>
+                </div>
+                <br>
                 <h3>
                     <li><strong>Aula 4 - Pseudo-elementos em CSS</strong></li>
                 </h3>
@@ -691,7 +699,6 @@
                 Dentro do <code>iframe</code>, se usarmos o <code>position:</code> com valor <code>absolute</code>, a <code>div</code>, que é o bloco, vai se tornar o ponto de partida para o posicionamento do frame. A partir disso é possível fazer as configurações de deslocamento (top-left) e de tamanho (width-height).</p>
                 </ul>  
             </ul>
-
             <aside>
                 <h3>Próximo módulo:</h3>
 
